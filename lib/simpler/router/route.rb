@@ -1,7 +1,6 @@
 module Simpler
   class Router
     class Route
-
       attr_reader :controller, :action, :params
 
       def initialize(method, path, controller, action)
