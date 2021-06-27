@@ -2,6 +2,7 @@ require_relative 'view'
 
 module Simpler
   class Controller
+
     attr_reader :name, :request, :response
 
     def initialize(env)
@@ -32,9 +33,9 @@ module Simpler
     end
 
     def write_response
-      body = render_body
+        body = render_body
 
-      @response.write(body)
+        @response.write(body)
     end
 
     def render_body

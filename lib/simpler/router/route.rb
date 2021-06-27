@@ -9,6 +9,7 @@ module Simpler
         @path = path
         @controller = controller
         @action = action
+        @params = {}
       end
 
       def match?(method, path)
