@@ -1,0 +1,19 @@
+I, [2021-06-27T10:11:09.447030 #9495]  INFO -- : 
+Request: GET /tests
+Handler: TestsController#index
+Parameters: {}
+Response: 200 [text/html] app/views/tests/list.html.erb
+
+I, [2021-06-27T10:11:14.412352 #9495]  INFO -- : 
+Request: GET /
+Handler: NilClass#
+Parameters: 
+Response: 404 [text/plain] 
+
+I, [2021-06-27T10:12:47.580477 #9495]  INFO -- : 
+Request: GET /tests/id=101
+Handler: NilClass#
+Parameters: 
+Response: 404 [text/plain] 
+
+I, [2021-06-27T10:27:52.847307 #9657]  INFO -- : Request: GET /tests/101
